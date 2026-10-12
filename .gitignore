@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+
+# Test, lint, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local editor and agent files
+.vscode/
+.idea/
+.agents/
+.codex
+README_local.md
+public_release_caw/
+
+# Generated experiment outputs
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Raw benchmark datasets
+data/PSM/
+data/SWaT/
+data/WADI/
+data/SMAP_MSL/
+data/smd/
+
+# Processed datasets should be generated locally.
+data/processed_*/*
+!data/processed_*/default*.yaml
+!data/processed_*/README.md
+
+# Large generated arrays and archives
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
